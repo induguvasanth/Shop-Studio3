@@ -1,0 +1,1 @@
+Camera capture fix: direct integration with scanner page state; avoids synthetic FileList/DataTransfer on Android; appends camera pages instead of resetting batch; reports errors; closes camera on success. Deploy all files and refresh. Test on real camera.
